@@ -24,7 +24,7 @@ body {
 }
 
 .img {
-    background-image: url("https://github.com/anandvip/son-dad/blob/main/img/sirvagyaSon.JPG?raw=true");
+    background-image: url("img/sirvagyaSon.JPG");
     background-size: contain;
     width: 350px;
     height: 530px;
