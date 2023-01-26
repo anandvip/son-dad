@@ -8,16 +8,32 @@
 
   <style>
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,900;1,200;1,800;1,900&display=swap');
+    .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-template-areas: 
+    "image image image"
+    "description description description";
+  justify-content: center;
+  align-content: center;
+  background-image: url(img/sirvagyaSon.JPG);
+  background-size: cover;
+  background-position: center;
+}
+.grid-description {
+  grid-area: description;
+  overflow: auto;
+}
+
 </style>
 
 <title>VA - Document</title>
 </head>
 <body>
-
-      <div class="wrapper">
-     
-        <div class="img"></div>
-        <div class="desc">
+  <div class="grid-container">
+  <p class="grid-description">
+     <div class="desc">
          <p class="father-message">My dear Sirvagya, son,</p>
             <p class="father-message">Words cannot express the depth of my love for you. You are the light 🪔 of my life, and I am so grateful to be your father. I want you to know that my love for you is unconditional, and I will always be here for you, no matter what.</p>
             <p class="father-message">As your father, it is my greatest desire to see you happy and healthy. That's why I am writing this journal entry to remind you of the importance of taking care of yourself. I know that life can be tough, but I want you to know that you are not alone. I am here for you, and I will always support you in your life journey.</p>
@@ -26,10 +42,8 @@
             <p class="father-message">With all my love,</p>
             <p class="father-message">PAPA</p>
         </div>
-      
-      
-      </div>
-      </div>
-      
+    
+  </p>
+</div>
 </body>
 </html>
