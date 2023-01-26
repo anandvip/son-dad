@@ -25,7 +25,7 @@ body {
 
 .img {
     background-image: url("img/sirvagyaSon.JPG");
-    background-size: contain;
+    background-size: cover;
     background-repeat:no-repeat;
     width: 350px;
     height: 530px;
